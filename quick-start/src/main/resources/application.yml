@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: quick-start
+  ai:
+    deepseek:
+      api-key: sk-84a0cf91c9f344a39c59736c5a36c940
+      chat:
+        options:
+          model: deepseek-chat
+          max-tokens: 20
+          stop:
+            - "\n"    #只想一行
+            - "。"    #只想一句话
+            - "政治"  #敏感词
+            - "最后最总结一下"  #这种AI惯用的模板词， 减少AI词汇， 让文章更拟人
