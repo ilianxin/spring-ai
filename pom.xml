@@ -10,6 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <modules>
+        <module>quick-start</module>
+    </modules>
+
     <groupId>com.ilianxin</groupId>
     <artifactId>spring-ai</artifactId>
     <version>1.0.0</version>
